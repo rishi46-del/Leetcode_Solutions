@@ -20,3 +20,6 @@ public:
         return ans;
     }
 };
+
+// TC : O(N)
+// SC:O(N) using extra space
