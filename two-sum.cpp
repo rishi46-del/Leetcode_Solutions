@@ -4,7 +4,7 @@ public:
         vector<int>ans;
         for(int i=0;i<nums.size();i++){
             for(int j=i+1;j<nums.size();j++){
-                if(nums[i]+nums[j]==target){
+                if(nums[i]+nums[j]==target){   // if target is found push the index into the vector
                     ans.push_back(i);
                     ans.push_back(j);
                 }
@@ -13,3 +13,7 @@ public:
         return ans;
     }
 };
+
+
+// TC:O(N)
+// SC:O(1)
